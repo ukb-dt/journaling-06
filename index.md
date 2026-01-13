@@ -19,7 +19,7 @@
 
 ## [Preface](http://ukb-dt.github.io/journaling-07)
 
-This document is not a manifesto, a product spec, or a claim to final truth. It is a working calculus for irreversible lives.
+This document is not a [manifesto](https://ukb-dt.github.io/credo-00/), a product spec, or a claim to final truth. It is a working calculus for irreversible lives.
 
 The starting assumption is simple and unfashionable: **what matters is not state alone, but trajectory**. Bodies, organizations, and decisions do not fail because they reach the wrong point; they fail because they follow a path whose consequences were never rehearsed.
 
