@@ -35,6 +35,8 @@ Nothing here denies randomness, mortality, or dissipation. Death remains the glo
 
 Ukubona is the wager that **seeing the path changes how one walks it**.
 
+-O
+
 ---
 
 
@@ -104,18 +106,18 @@ And you chat via LLM API with your digital twin about optimal counterfactuals
 
 **Mathematical Structure:**
 
-1. **(x, y): State, Transition** → Parameters/Simulation space
-2. **y(t | x) + ε: Change [Irreversible + Dissipation]** → Data = Trajectory + Stochasticity
-3. **dy_x/dt: Rate of Change** → Objective is unambiguous: max(signal transport), min(energy cost)
-4. **dy_x̄/dt ± z√(d²y_x/dy²): Change of Rate** → Navigation of combinatorially massive search space
-5. **∫y_x dt + ε_x t + C_x: Estate** → Ledger integrating all calculus
+1. **$(x, y)$: State, Transition** → Parameters/Simulation space
+2. **$y(t\mid x) + \epsilon$: Change [Irreversible + Dissipation]** → Data = Trajectory + Stochasticity
+3. **$\frac{dy_x}{dt}$: Rate of Change** → Objective is unambiguous: max(signal transport), min(energy cost)
+4. **$\frac{dy_{\bar{x}}}{dt} \pm z\sqrt{\frac{d^2y_x}{dt^2}}$: Change of Rate** → Navigation of combinatorially massive search space
+5. **$\int y_x \,dt + \epsilon_x \,t + C_x$: Estate** → Ledger integrating all calculus
 
 **Physical Instantiation (Frailty with Implementation):**
 
 1. **State, Transition** → Power, Muscle
-2. **Change (Sequential)** → Fried FP², Power sustained over time | **ε = perturbation captured by wearable/implant**
+2. **Change (Sequential)** → Fried FP², Power sustained over time $\mid$ **ε = perturbation captured by wearable/implant**
 3. **Rate of Change** → Speed: Walking, Running, Swimming, Weight lifting rounds/minute
-4. **Change of Rate (Consequential)** → Aging, Disability | **z = non-ontological navigation parameter**
+4. **Change of Rate (Consequential)** → Aging, Disability $\mid$ **z = non-ontological navigation parameter**
 5. **Estate** → Fall, Hospitalization, Organ failure, Death
 
 ## The Critical Distinction: Sequential vs. Consequential
@@ -183,6 +185,7 @@ Twin: *Visualizes Level 4 with different z-bounds for different interventions*
 ## Why This Architecture Is Superior
 
 ### vs. Google Search
+
 | Google | Pentad + Twin |
 |--------|---------------|
 | Static retrieval | Dynamic simulation |
@@ -191,6 +194,7 @@ Twin: *Visualizes Level 4 with different z-bounds for different interventions*
 | Information | Actionable intelligence |
 
 ### vs. Traditional Medical Monitoring
+
 | Traditional | Pentad + Twin |
 |-------------|---------------|
 | Periodic snapshots | Continuous sequential capture |
@@ -212,7 +216,7 @@ Twin: *Visualizes Level 4 with different z-bounds for different interventions*
 |-------|--------|----------|----------------|
 | 1 | State (x, y) | Core Values: people (x), excellence (y) | Initial conditions |
 | 2 | Change + ε | More Values: innovation (ε) | Sequential: real perturbations |
-| 3 | Rate dy/dt | Vision: what to optimize (SGD) | Observable metrics |
+| 3 | Rate of Change dy/dt | Vision: what to optimize (SGD) | Observable metrics |
 | 4 | Change of Rate ± z | Customer: UI + Feedback | Consequential: navigation |
 | 5 | Estate ∫ | Mission: integrated experience (UX) | Cumulative ledger |
 
@@ -256,7 +260,7 @@ Any system with:
 
 ### Phase 1: Sequential Capture
 - Wearable/implant integration
-- y(t | x) + ε streaming to cloud
+- $y(t\mid x) + \epsilon$ streaming to cloud
 - User-passcode-gated API
 - Real-time Level 1-3 monitoring
 
@@ -524,7 +528,7 @@ Biology is treated as an optimization problem where the system naturally descend
 
 * **Objective Function:**
     $$\text{Maximize } \Phi = \frac{\text{Mass or Signal Transport Speed}}{\text{Energy Cost}}$$
-* **Data Inputs:** Trajectory + Stochasticity ($y(t|x)$ via wearables/implants).
+* **Data Inputs:** Trajectory + Stochasticity ($y(t\mid x)$ via wearables/implants).
 * **The Solver:** The Search Space is combinatorially massive. The **Digital Twin** (LLM API) utilizes the "Ledger" (accumulated calculus) to simulate counterfactuals.
 
 ### The Interaction
@@ -622,8 +626,12 @@ Then every stressor $\epsilon$ permanently increases $z$. The system never retur
 The **Risk Multiplier $z$** is the **exchange rate** between stress and damage.
 * **Ukubona Goal:** We cannot stop time ($t$) or prevent all stress ($\epsilon$).
 * **Optimization:** We minimize the slope of $L(t)$ via recovery and maintenance, keeping $z$ low so that when the inevitable storm comes, the tree bends rather than breaks.
+
 # 03-X
-Here's take five, building on your iterations. I've woven in the new emphases on "sequential" (e.g., time-sustained power in changes) and "consequential" (e.g., cascading effects in rate changes), positioning the model as a superior framework for reasoning about outcomes—sequential processes leading to witnessed consequences, outperforming static searches like Google by enabling dynamic, counterfactual simulations via digital twins. The pentad remains a dissipative dynamical system, now explicitly integrable with real-time data capture (ε as perturbations from wearables/implants, gated via your proposed Ukubona LLC API—visionary for Uganda's growing health tech scene in Kampala, where innovations like this could leverage local mobile/cloud ecosystems for on-demand clinic or LLM chats).
+
+Here's take five, building on your iterations. I've woven in the new emphases on "sequential" (e.g., time-sustained power in changes) and "consequential" (e.g., cascading effects in rate changes), positioning the model as a superior framework for reasoning about outcomes—sequential processes leading to witnessed consequences, outperforming static searches like Google by enabling dynamic, counterfactual simulations via digital twins. 
+
+The pentad remains a dissipative dynamical system, now explicitly integrable with real-time data capture (ε as perturbations from wearables/implants, gated via your proposed Ukubona LLC API—visionary for Uganda's growing health tech scene in Kampala, where innovations like this could leverage local mobile/cloud ecosystems for on-demand clinic or LLM chats).
 
 ### Core Model Interpretation
 A refined pentad for modeling irreversible transitions in physiological (or broader) systems:
