@@ -17,7 +17,7 @@
 </script>
 
 
-## [Preface](http://ukb-dt.github.io/journaling-07)
+## [Preface](http://ukb-dt.github.io/journaling-07)     
 
 This document is not a [manifesto](https://ukb-dt.github.io/credo-00/), a product spec, or a claim to final truth. It is a working calculus for irreversible lives.
 
